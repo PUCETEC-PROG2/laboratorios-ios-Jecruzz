@@ -11,7 +11,15 @@ struct Profile: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Perfil de usuario!")
+                Text("JosuSTK")
+                    .font(.title)
+                Image (uiImage: .josuIOS)
+                    .resizable()
+                    .scaledToFit()
+                Text("josustk")
+                    .font(.headline)
+                    .padding(.vertical)
+                Text("aasdf")
             }
             .navigationTitle("Perfil")
             .navigationBarTitleDisplayMode(.inline)

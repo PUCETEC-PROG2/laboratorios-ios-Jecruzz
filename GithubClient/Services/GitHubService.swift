@@ -31,13 +31,21 @@ class GitHubService {
                 "sort": "created",
                 "direction": "desc",
                 "per_page": 100,
-                "affiliation": "owner"
+                "affiliation": "owner",
+                "t" : NSDate().timeIntervalSince1970
             ],
             headers: headers
         )
         .validate(statusCode: 200..<300)
         .serializingDecodable([Repository].self)
         .response
+        
+        if let data = response.data,
+                   let json = String(data: data, encoding: .utf8) {
+                    print ("***** Respuesta al crear repositorio: *******")
+                    print(json)
+                }
+        
 
         switch response.result {
         case .success(let repositories):

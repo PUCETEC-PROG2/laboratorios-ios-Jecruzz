@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AC4FF6953008269100205D27 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AC4FF6943008269100205D27 /* Alamofire */; };
-		AC59CEBE30081B9400929ED4 /* gitignore 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC59CEBD30081B9400929ED4 /* gitignore 1.txt */; };
+		AC59CEBE30081B9400929ED4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC59CEBD30081B9400929ED4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC15474E2F16A0A300962CDB /* GithubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC59CEBD30081B9400929ED4 /* gitignore 1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gitignore 1.txt"; sourceTree = "<group>"; };
+		AC59CEBD30081B9400929ED4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,7 +41,7 @@
 			children = (
 				AC1547502F16A0A300962CDB /* GithubClient */,
 				AC15474F2F16A0A300962CDB /* Products */,
-				AC59CEBD30081B9400929ED4 /* gitignore 1.txt */,
+				AC59CEBD30081B9400929ED4 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,7 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC59CEBE30081B9400929ED4 /* gitignore 1.txt in Resources */,
+				AC59CEBE30081B9400929ED4 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
